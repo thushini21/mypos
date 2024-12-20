@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f4fa; /* Light purple background */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #6a1b9a; /* Dark purple */
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.management-btn {
+    background-color: #9c27b0; /* Vibrant purple */
+    color: white;
+    border: none;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.management-btn:hover {
+    background-color: #7b1fa2; /* Slightly darker purple on hover */
+}
+
+.card frocks {
+    border: 1px solid #d1c4e9; /* Light purple border */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card frocks:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card frocks-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card frocks-body {
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.card frocks-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #6a1b9a; /* Dark purple */
+    margin-bottom: 10px;
+}
+
+.card frocks-text {
+    font-size: 1rem;
+    color: #4a148c; /* Deep purple */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.col-md-3,
+.col-sm-6 {
+    padding: 15px;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
